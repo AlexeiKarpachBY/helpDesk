@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ticket was cancelled</title>
+</head>
+<body>
+<h1>Dear Users,</h1>
+<h2><a style="color: red" th:href="@{'http://localhost:3000/ticket-info/' + ${ticket.getId()}}">Ticket</a> was canceled
+    by the engineer. </h2>
+<br>
+<h1>Help desk application</h1>
+</body>
+</html>

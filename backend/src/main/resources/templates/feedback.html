@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback was provided</title>
+</head>
+<body>
+<h1>Dear <span th:text="${ticket.assignee.getFirstName()}"></span>
+    <span th:text="${ticket.assignee.getLastName()}"></span>
+</h1>
+<h2>The feedback was provided on the
+    <a style="color: red" th:href="@{'http://localhost:3000/feedback/' + ${ticket.getId()}}">ticket.</a>
+</h2>
+<br>
+<h1>Help desk application.</h1>
+</body>
+</html>

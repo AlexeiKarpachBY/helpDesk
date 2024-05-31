@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ticket was approved</title>
+</head>
+<body>
+<h1>Dear Users,</h1>
+<h2><a style="color: red" th:href="@{'http://localhost:3000/ticket-info/' + ${ticket.getId()}}">Ticket</a> was approved
+    by the manager.</h2>
+<br>
+<h1>Help desk application</h1>
+</body>
+</html>

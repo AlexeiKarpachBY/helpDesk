@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ticket was done</title>
+</head>
+<body>
+<h1>Dear <span th:text="${ticket.owner.getFirstName()}"></span> <span th:text="${ticket.owner.getLastName()}"></span>
+</h1>
+<h2><a style="color: red" th:href="@{'http://localhost:3000/ticket-info/' + ${ticket.getId()}}">Ticket</a> was done by
+    the engineer.</h2>
+<h2>Please provide your feedback by clicking on the ticket ID</h2>
+<br>
+<h1>Help desk application</h1>
+</body>
+</html>
