@@ -14,8 +14,5 @@ insert into category (id, name ) values ('4', 'People Management');
 insert into category (id, name ) values ('5', 'Security & Access');
 insert into category (id, name ) values ('6', 'Workplaces & Facilities');
 
-insert into tickets (name, state, urgency, approver_id, assignee_id, owner_id, category_id, desired_resolution_date, description, created_on ) values ('FIRST_Ticket', 'DRAFT', 'CRITICAL', null, null, '1', '3', '2021-12-31', 'cosmic amazing', '2021-12-01');
-insert into tickets (name, state, urgency, approver_id, assignee_id, owner_id, category_id, desired_resolution_date, description, created_on ) values ('SECOND_Ticket', 'DRAFT', 'CRITICAL', null, null, '1', '3', '2021-12-31', 'cosmic amazing', '2021-12-01');
-insert into tickets (name, state, urgency, approver_id, assignee_id, owner_id, category_id, desired_resolution_date, description, created_on ) values ('THIRD_Ticket', 'DRAFT', 'CRITICAL', null, null, '1', '3', '2021-12-31', 'cosmic amazing', '2021-12-01');
-insert into tickets (name, state, urgency, approver_id, assignee_id, owner_id, category_id, desired_resolution_date, description, created_on ) values ('FOURTH_Ticket', 'DRAFT', 'CRITICAL', null, null, '1', '3', '2021-12-31', 'cosmic amazing', '2021-12-01');
+
 

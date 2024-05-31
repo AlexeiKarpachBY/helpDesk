@@ -120,7 +120,7 @@
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
                     <configuration>
-                        <mainClass>com.training.akarpach.helpDesk.HelpDeskApplication</mainClass>
+                        <mainClass>com.helpDesk.HelpDeskApplication</mainClass>
                     </configuration>
                     <executions>
                         <execution>
